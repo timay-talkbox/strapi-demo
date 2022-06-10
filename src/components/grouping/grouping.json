@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_grouping_groupings",
+  "info": {
+    "displayName": "Grouping",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "fdsafsa": {
+      "type": "boolean"
+    }
+  }
+}

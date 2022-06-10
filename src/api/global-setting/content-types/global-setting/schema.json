@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "global_settings",
+  "info": {
+    "singularName": "global-setting",
+    "pluralName": "global-settings",
+    "displayName": "Global Setting",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Maintenance": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "MaintenanceInformation": {
+      "displayName": "Grouping",
+      "type": "component",
+      "repeatable": false,
+      "component": "grouping.grouping",
+      "required": true
+    },
+    "f": {
+      "type": "richtext"
+    }
+  }
+}
